@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "==5.2.3"
+boto3 = "*"
+requests = "*"
+pycurl = "==7.44.1"
+mongodb-vinreco = {git = "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/mongodb-vinreco.git",editable=true}
+pyopenssl = "==22.0.0"
+redis = "*"
+
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
+
